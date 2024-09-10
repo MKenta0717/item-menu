@@ -1,0 +1,13 @@
+body {
+  height: 100vh;
+}
+
+.container{
+  height: 100vh;
+  
+}
+
+.wrap {
+  width: 100vw;
+  margin: 0 auto;
+}
