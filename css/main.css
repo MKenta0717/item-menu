@@ -2,3 +2,8 @@ img {
   width: 100%
   
 }
+
+.wrap {
+  max-width: 600px;
+  margin: 0 auto;
+}
