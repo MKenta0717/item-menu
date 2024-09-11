@@ -37,7 +37,7 @@ form input {
   border-bottom: 0px;
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
-  padding: 3px 10px;
+  padding: 10px 10px;
 }
 
 #login_btn {
@@ -45,7 +45,7 @@ form input {
   border-top: 0px;
   border-end-end-radius: 8px;
   border-end-start-radius: 8px;
-  padding: 3px 0;
+  padding: 7px 0;
   background: #0abab4ce;
   color: white;
   font-weight: 600;
