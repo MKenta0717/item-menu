@@ -11,3 +11,43 @@ body {
   width: 100vw;
   margin: 0 auto;
 }
+
+form {
+  position: relative;
+}
+
+form::after {
+  content:"";
+  width: 180px;
+  height: 180px;
+  opacity: 0.4;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background:url("../image/ダウンロード.webp") no-repeat center;
+  background-size: contain;
+  background-color: (red, green, blue, 0.4);
+  z-index: -1;
+}
+
+form input {
+  border-radius: 0px;
+  border: 1px solid #0abab4;
+  border-bottom: 0px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  padding: 3px 10px;
+}
+
+#login_btn {
+  border: 1px solid #0abab4;
+  border-top: 0px;
+  border-end-end-radius: 8px;
+  border-end-start-radius: 8px;
+  padding: 3px 0;
+  background: #0abab4ce;
+  color: white;
+  font-weight: 600;
+  text-align: center;
+}

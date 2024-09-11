@@ -11,11 +11,12 @@
   <body>
     <main>
       <div class="container d-flex align-items-center justify-content-center flex-column">
-        <form action="" class="login_form">
-          <label for="pass" class="me-3">PASSWORD</label>
-          <input type="password" name="pass" id="pass">
+        <form action="" class="login_form d-flex flex-column">
+          
+          <input type="password" name="pass" id="pass" placeholder="PASSWORD">
+          <div id="login_btn" onclick="login_hundler()">LOGIN</div>
         </form>
-        <button id="login_btn" class="mt-3" onclick="login_hundler()">ログイン</button>
+        
 
       </div>
     </main>
